@@ -1,0 +1,33 @@
+.about{
+    height: 100vh;
+    background-color: #302f2f;
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+  }
+
+.carousel-part{
+    flex: 1;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.paragraph-part{
+    flex: 1;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+.h2{
+    text-align: center;
+    position: absolute;
+}

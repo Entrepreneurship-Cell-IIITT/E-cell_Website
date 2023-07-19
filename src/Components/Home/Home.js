@@ -15,10 +15,11 @@ function Home() {
         color:'grey'
     }
 
+    
+    const tagline = '"Catalyzing Reformers"';
     const [animatedText, setAnimatedText] = useState("");
-    // const tagline = '"Catalyzing Reformers"';
-    const tagline = "Catalyzing Reformers";
-    let i = 0;
+    // const tagline = "Catalyzing Reformers";
+    let i = 1;
     console.log(tagline.length);
   
     useEffect(() => {
@@ -30,7 +31,7 @@ function Home() {
         } else {
           clearInterval(typingInterval);
         }
-      }, 80); // Adjust the interval for the typing speed
+      }, 100); // Adjust the interval for the typing speed
   
       return () => clearInterval(typingInterval);
     }, []);
@@ -42,7 +43,7 @@ function Home() {
         {/* <BackgroungAnimation /> */}
         {/* <GoogleFont href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap' /> */}
       
-    <div className='MuiIconButton-root'>
+    <div className='MuiIconButton-root' >
         <IconButton component="a" href="YOUR_TWITTER_LINK" target="_blank">
             <MailOutlineIcon style={white}/>
          </IconButton>
@@ -66,7 +67,7 @@ function Home() {
       <div className='parentBoxOfHomepageComponent'>
 
         <div className='name'>
-            <h1 className='e-cell-name'>Entrepreneurship cell </h1>  <h1 className='college-name'>IIIT Tiruchiraappalli</h1>
+            <span className='e-cell-name'>Entrepreneurship cell </span>  <span className='college-name'>IIIT Tiruchiraappalli</span>
          </div>
 
         <div className='tagline-container'>
