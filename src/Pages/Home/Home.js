@@ -38,54 +38,11 @@ function Home() {
     //   return () => clearInterval(typingInterval);
     // }, []);
 
-  return (  
-    
-    
+  return (   
     <div className='home'>
-
       <SocialMedia className='social-media'/>
       <NameAndTagline className="name-and-tagline"/>
-
-        {/* <BackgroungAnimation /> */}
-        {/* <GoogleFont href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap' /> */}
-      
-    {/* <div className='MuiIconButton-root' >
-        <IconButton component="a" href="YOUR_TWITTER_LINK" target="_blank">
-            <MailOutlineIcon style={white}/>
-         </IconButton>
-
-        <IconButton component="a" href="YOUR_GITHUB_LINK" target="_blank">
-            <InstagramTcon style={white} />
-        </IconButton>
-
-        <IconButton component="a" href="YOUR_TWITTER_LINK" target="_blank">
-            <TwitterIcon style={white}/>
-         </IconButton>
-
-        <IconButton component="a" href="YOUR_LINKEDIN_LINK" target="_blank">
-            <LinkedInIcon style={white}/>
-        </IconButton>
-
-        <IconButton component="a" href="YOUR_FACEBOOK_LINK" target="_blank">
-            <FacebookIcon style={white}/>
-        </IconButton>
-      </div> */}
-      {/* <div className='parentBoxOfHomepageComponent'>
-
-        <div className='name'>
-            <span className='e-cell-name'>Entrepreneurship cell </span>  <span className='college-name'>IIIT Tiruchiraappalli</span>
-         </div>
-
-        <div className='tagline-container'>
-            <h4 className='tagline'>{animatedText}</h4>
-        </div>
-        
-        <a href="LINK_URL" className="button" target='blank'>Join Us</a>
-      </div> */}
     </div>
-      
-
-
   )
 }
 

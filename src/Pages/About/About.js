@@ -1,34 +1,27 @@
 import React from 'react'
 import './About.css'
-import { useState } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
-const images = [
-    ''
-  ];
-
+import Carousel from '../../Components/Carousel/Carousel'
 
 function About() {
   return (
     <div className='about'>
-      <div className='container'>
-        <div className='carousel-part'>
-          <h2>Gallery</h2>
-            <Carousel showThumbs={false} >
-              {images.map((imageUrl, index) => (
-                <div key={index}>
-                  <img src={imageUrl} alt={`Image ${index + 1}`} />
-                </div>
-              ))}
-            </Carousel>
-        </div>
+      <Carousel className='carousel' />
 
-        <div className='paragraph-part'>
-          <h2>About US</h2>
-          
-        </div>
-      </div>     
+      {/* <div className='about-paragaraph'>
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nunc blandit tellus nec mauris dignissim, eu placerat arcu laoreet.
+          Integer et tortor et magna laoreet dignissim.
+          Nullam consequat in est non maximus.
+          Phasellus interdum laoreet dolor, eu bibendum est feugiat eu.
+          Nullam bibendum massa vel ex feugiat, at hendrerit mauris ullamcorper.
+          Vivamus dapibus lectus eu eros accumsan, ac blandit enim rhoncus.
+          Praesent vel felis vel arcu efficitur pellentesque vel id tellus.
+          Vivamus tincidunt bibendum augue. Proin vitae neque in orci pharetra eleifend.
+        </p>
+
+      </div> */}
     </div>
   )
 }
