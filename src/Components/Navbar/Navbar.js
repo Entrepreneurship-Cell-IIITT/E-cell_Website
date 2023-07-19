@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import "./Navbar.css";
-import Logo from "../../Assests/logo.png";
+import Logo from "../../Assets/images/logo.png";
 
 const Navbar = ({ about, org }) => {
   const [active, setActive] = useState(false);
