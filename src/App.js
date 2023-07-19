@@ -2,14 +2,17 @@
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Navbar from './Components/Navbar/Navbar';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
 
   return (
     <div className="App">
-      <About />
-      {/* <Navbar/> */}
-      {/* <Home /> */}
+      
+       {/* <Navbar/>  */}
+       {/* <About /> */}
+       {/* <Home />  */}
+       <Contact/>
     </div>
   );
 }
