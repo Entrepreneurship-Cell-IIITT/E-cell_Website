@@ -1,18 +1,4 @@
-  .home {
-    height: 100vh;
-    background-color: #302f2f;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex; 
-   justify-content: center;
-   align-items: center;
-    /* animation: moveDot linear infinite, blinkDot 1s infinite; */
-  }
-  .parentBoxOfHomepageComponent{
+.parentBoxOfHomepageComponent{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -20,25 +6,7 @@
     display: inline-block;
     margin-right: auto;
   }
-  
-  .MuiIconButton-root {
-    /* background-color: #302f2f; */
-    /* position: absolute; */
-    display: flex;
-    flex-direction: column;
-    float:left;
-    margin-right: auto;
-  }
 
-  .MuiIconButton-root:hover {
-    transform: scale(1.1);
-    color: #ff0000; /* Change color on hover */
-  }
-  
-  /* Increase the size of the icons */
-  .MuiSvgIcon-root {
-    font-size: 28px;
-  }
   .name {
     font-size: 40px;
     font-family: Roboto;
@@ -52,7 +20,7 @@
     align-items: baseline;
   }
 
-.name::before,
+  .name::before,
 .name::after {
   content: '';
   position: absolute;
@@ -111,14 +79,12 @@
     font-family: Montserrat;
     font-size: 20px;
     text-align: center;
-    /* margin-top: 0; */
   }
   
 
   
   .button {
     position: absolute;
-    /* display: inline-block; */
     padding: 10px 20px;
     width: 60px;
     margin-left: 40%;
@@ -135,5 +101,3 @@
     background-color: #9b0c0c;
     transform: scale(1.1);
   }
-  
-  
