@@ -1,10 +1,13 @@
 import React from 'react'
 import './About.css'
 import Carousel from '../../Components/Carousel/Carousel'
+import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 function About() {
   return (
     <div className='about'>
+      <Navbar/>
       <Carousel className='carousel' />
 
        <div className='about-paragaraph'>
@@ -22,6 +25,7 @@ function About() {
         </p>
 
       </div> 
+      <Footer/>
     </div>
   )
 }

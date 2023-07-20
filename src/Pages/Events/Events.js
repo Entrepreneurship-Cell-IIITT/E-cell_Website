@@ -3,6 +3,7 @@ import './Events.css'
 import EventCard from '../../Components/ReuseableCard/EventCards/EventCard';
 import {EventData} from '../../Assets/data/EventData.js';
 import Navbar from '../../Components/Navbar/Navbar.js';
+import Footer from '../../Components/Footer/Footer';
 
 function Events() {
   return (
@@ -25,6 +26,7 @@ function Events() {
             );
           })}
         </div>
+        <Footer/>
       </div>
     </div>
   )
