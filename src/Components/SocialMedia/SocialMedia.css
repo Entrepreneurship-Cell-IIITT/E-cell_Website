@@ -6,16 +6,13 @@
   .MuiIconButton-root {
     display: flex;
     flex-direction: column;
-    /* float:left; */
-    /* margin-left: 0; */
-    /* margin-right: auto; */
   }
 
-  .MuiIconButton-root:hover {
+  .MuiIconButton-root :hover {
     transform: scale(1.1);
     color: #ff0000;
   }
   
-  .MuiSvgIcon-root {
+  /* .MuiSvgIcon-root {
     font-size: 28px;
-  }
+  } */

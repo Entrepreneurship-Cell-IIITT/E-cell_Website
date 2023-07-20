@@ -50,7 +50,7 @@
 
   .e-cell-name:hover{
     transform: scale(1.05);
-    color: #9b0c0c;
+    color: #ff6969;
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
@@ -75,12 +75,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
   .tagline {
-    color: #eae8e8;
+    color: #ffffff;
     font-family: Montserrat;
     font-size: 20px;
     text-align: center;
   }
   
+  .tagline:hover{
+    color: rgb(213, 218, 218);
+  }
 
   
   .button {

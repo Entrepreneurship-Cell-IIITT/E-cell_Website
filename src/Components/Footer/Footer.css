@@ -1,13 +1,8 @@
-/* Footer.css */
-
-
-
 .footer{
     display: flex;
     justify-content: space-evenly;
     bottom: 0;
     margin-top: auto;
-    /* background-color: blue; */
     box-shadow: 4px 4px 8px 8px rgb(105, 14, 14);
 
 }
@@ -19,22 +14,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 .developer{
-    /* text-align: right; */
     margin-left: 25%;
     margin-top: 25px;
-    /* text-shadow: 5px; */
     font-family: Pangolin;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+.developer:hover{
+    color: rgb(252, 79, 79);
+    text-decoration:double;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap'); */
 .copyrights{
     margin-right: 25%;
     margin-top: 25px;
     font-family: Pangolin;
-    /* font-size: 75%; */
-    /* letter-spacing: 2px; */
 }
-
-
-/*  */
-
+.copyrights:hover{
+    color: rgb(252, 79, 79);
+    text-decoration: double;
+}
