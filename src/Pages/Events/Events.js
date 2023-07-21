@@ -10,7 +10,7 @@ function Events() {
     <div>
       <div className="event-page--container">
 
-            <Navbar />
+            {/* <Navbar /> */}
 
           <h1 className="event-heading">
             EVENTS
@@ -26,7 +26,7 @@ function Events() {
             );
           })}
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
   .contact {
-  margin-top: 12%;
+  padding-top: 12%;
+  background-color: #302f2f;
   display: flex;
   align-items: center;
   justify-content: center;

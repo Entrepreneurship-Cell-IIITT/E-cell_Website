@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useRef } from 'react-router-dom';
+import './App.css'
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
@@ -9,12 +10,13 @@ import Contact from './Pages/Contact/Contact';
 import Events from './Pages/Events/Events';
 import Footer from './Components/Footer/Footer';
 
+
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <>
-          <Navbar />
           <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -24,9 +26,9 @@ function App() {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Team" element={<Team />} />
           </Routes>
-          <Footer />
         </>
       </Router>
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Footer from '../../Components/Footer/Footer'
 function About() {
   return (
     <div className='about'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Carousel className='carousel' />
 
        <div className='about-paragaraph'>
@@ -25,7 +25,7 @@ function About() {
         </p>
 
       </div> 
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
