@@ -1,36 +1,70 @@
-.footer{
+.footer {
     display: flex;
-    justify-content: space-evenly;
-    bottom: 0;
     margin-top: auto;
+    justify-content: center;
     box-shadow: 4px 4px 8px 8px rgb(105, 14, 14);
-
-}
-
-.word-gap{
-    margin-left: 100px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
-.developer{
+.developer {
     margin-left: 25%;
     margin-top: 25px;
     font-family: Pangolin;
 }
 
-.developer:hover{
+.developer:hover {
     color: rgb(252, 79, 79);
-    text-decoration:double;
+    text-decoration: double;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap'); */
-.copyrights{
+.copyrights {
     margin-right: 25%;
     margin-top: 25px;
     font-family: Pangolin;
 }
-.copyrights:hover{
+
+.copyrights:hover {
     color: rgb(252, 79, 79);
     text-decoration: double;
+}
+
+@media (max-width: 1200px) {
+    .developer {
+        margin-left: 20%;
+    }
+
+    .copyrights {
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 986px) {
+    .developer {
+        margin-left: 15%;
+    }
+
+    .copyrights {
+        margin-right: 15%;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .developer {
+        font-family: Pangolin;
+        display: block;
+        margin: -14px auto 17px;
+    }
+
+    .copyrights {
+        font-family: Pangolin;
+        display: block;
+        margin: auto;
+    }
 }

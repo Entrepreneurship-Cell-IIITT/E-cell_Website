@@ -1,10 +1,8 @@
-// Navbar.jsInitiatives
-
 import React, { useState } from "react";
 import "./Navbar.css";
 import Logo from "../../Assets/images/logo.png";
 
-const Navbar = ({ about, org }) => {
+const Navbar = () => {
   const [active, setActive] = useState(false);
   return (
     <nav className="navbar">
@@ -36,13 +34,11 @@ const Navbar = ({ about, org }) => {
           <li>
             <a href="/Team">Team</a>
           </li>
-
           <li>
             <a href="/Contact">Contact</a>
           </li>
         </ul>
       </div>
-      
     </nav>
   );
 };

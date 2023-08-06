@@ -1,18 +1,16 @@
   .contact {
-  padding-top: 12%;
-  background-color: #302f2f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    padding-top: 12%;
+    background-color: #302f2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
- .contact-form form {
+
+  .contact-form form {
     width: 100%;
     margin-left: 5%
-    
-    
   }
-  
+
   .contact-form input,
   .contact-form textarea {
     margin-top: 0.3rem;
@@ -25,12 +23,12 @@
     color: #fff;
     background-color: #13131a;
   }
-  
+
   .contact-form input:focus,
   .contact-form textarea:focus {
     border: 2px solid #00ce9e;
   }
-  
+
   .contact-form input[type="submit"] {
     margin-top: 2rem;
     cursor: pointer;
@@ -40,19 +38,19 @@
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
   }
-  
+
   .map-container {
     display: flex;
     justify-content: flex-end;
     width: 100%;
   }
-  
+
   .map-container iframe {
     width: 90%;
     height: 450px;
     padding-right: 2%;
   }
-  
+
   /* Media query for mobile */
   @media (max-width: 768px) {
     .contact-form {
@@ -62,4 +60,3 @@
       border: 0.5px solid #ccc;
     }
   }
-  

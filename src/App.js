@@ -1,6 +1,5 @@
-import { BrowserRouter as Router, Route, Routes, useRef } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
-import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Associates from './Pages/Associates/Associates';
@@ -9,6 +8,7 @@ import Team from './Pages/Team/Team';
 import Contact from './Pages/Contact/Contact';
 import Events from './Pages/Events/Events';
 import Footer from './Components/Footer/Footer';
+import Navbar from './Components/Navbar/Navbar';
 
 
 function App() {
@@ -16,8 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Router>
-        <>
-          <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
@@ -25,8 +24,7 @@ function App() {
           <Route path="/Events" element={<Events />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Team" element={<Team />} />
-          </Routes>
-        </>
+        </Routes>
       </Router>
       <Footer />
     </div>
@@ -44,7 +42,7 @@ export default App;
 
 
 // import { BrowserRouter as Router, Route, useRoutes } from 'react-router-dom';
- 
+
 // import Navbar from './Components/Navbar/Navbar';
 // import Home from './Pages/Home/Home';
 // import About from './Pages/About/About';
@@ -83,13 +81,13 @@ export default App;
 //             <Footer/>
 //           </>
 
-      {/* <Navbar/>  */}
-      {/* <About /> */}
-      {/* <Home />  */}
-      {/* <Contact/> */}
-      {/* <Events/> */}
+{/* <Navbar/>  */ }
+{/* <About /> */ }
+{/* <Home />  */ }
+{/* <Contact/> */ }
+{/* <Events/> */ }
 
-    {/* </div>
+{/* </div>
   );
 }
 

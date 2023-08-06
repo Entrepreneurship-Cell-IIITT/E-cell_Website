@@ -10,7 +10,7 @@ function About() {
       {/* <Navbar/> */}
       <Carousel className='carousel' />
 
-       <div className='about-paragaraph'>
+      <div className='about-paragaraph'>
         <h2>About Us</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -24,7 +24,7 @@ function About() {
           Vivamus tincidunt bibendum augue. Proin vitae neque in orci pharetra eleifend.
         </p>
 
-      </div> 
+      </div>
       {/* <Footer/> */}
     </div>
   )

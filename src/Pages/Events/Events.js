@@ -1,7 +1,7 @@
 import React from 'react'
 import './Events.css'
 import EventCard from '../../Components/ReuseableCard/EventCards/EventCard';
-import {EventData} from '../../Assets/data/EventData.js';
+import { EventData } from '../../Assets/data/EventData.js';
 import Navbar from '../../Components/Navbar/Navbar.js';
 import Footer from '../../Components/Footer/Footer';
 
@@ -10,11 +10,11 @@ function Events() {
     <div>
       <div className="event-page--container">
 
-            {/* <Navbar /> */}
+        {/* <Navbar /> */}
 
-          <h1 className="event-heading">
-            EVENTS
-          </h1>
+        <h1 className="event-heading">
+          EVENTS
+        </h1>
         <div className="event-card--conatiner">
           {EventData.map((card) => {
             return (

@@ -1,26 +1,20 @@
-.parentBoxOfHomepageComponent{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    display: inline-block;
-    /* margin-right: auto; */
-  }
+.parentBoxOfHomepageComponent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
-  .name {
-    font-size: 40px;
-    font-family: Roboto;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    position: relative;
-    align-items: center;
-    display: inline-block;
-    font-weight: bold;
-    align-items: baseline;
-  }
+.name {
+  font-size: 50px;
+  font-family: Roboto;
+  position: relative;
+  display: flex;
+  margin: auto;
+  display: inline-block;
+  font-weight: bold;
+}
 
-  .name::before,
+.name::before,
 .name::after {
   content: '';
   position: absolute;
@@ -29,78 +23,121 @@
   height: 2px;
   background-color: #ba0000;
   transform-origin: center;
-  transition: width 1s; 
+  transition: width 1s;
+}
+
+.name:hover::before {
+  right: 0;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Tektur:wght@400;500&display=swap');
+
+.e-cell-name {
+  font-family: Raleway;
+  color: rgb(244, 18, 18);
+}
+
+.e-cell-name:hover {
+  transform: scale(1.05);
+  color: #ff6969;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+.college-name {
+  font-family: Chakra Petch;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.college-name:hover {
+  transform: scale(1.05);
+  margin-left: 12px;
+  color: #cec7c7;
+}
+
+.tagline-container {
+  position: relative;
+  background-color: #302f2f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.tagline {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tagline:hover {
+  color: rgb(213, 218, 218);
+}
+
+.button {
+  padding: 10px 20px;
+  width: 60px;
+  display: block;
+  margin: auto;
+  background-color: rgb(244, 18, 18);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #9b0c0c;
+  transform: scale(1.1);
+}
+
+@media (max-width: 810px) {
+  .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .name {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .name {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 430px) {
+  .name {
+    font-size: 35px;
+  }
 }
 
 
-.name:hover::before {
-    right: 0;
-    width: 100%; 
+@media (max-width: 380px) {
+  .name {
+    font-size: 30px;
   }
+}
 
-  
-  
-  
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&family=Tektur:wght@400;500&display=swap');
-
-  .e-cell-name {
-    font-family: Raleway;
-    color: rgb(244, 18, 18);
+@media (max-width: 340px) {
+  .name {
+    font-size: 28px;
   }
+}
 
-  .e-cell-name:hover{
-    transform: scale(1.05);
-    color: #ff6969;
+@media (max-width: 300px) {
+  .name {
+    font-size: 25px;
   }
-
-  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-
-  .college-name {
-    font-family: Chakra Petch;
-    color: #ffffff;
-    margin-left:10px ;
-  }
-  .college-name:hover{
-    transform: scale(1.05);
-    margin-left: 12px;
-    color: #cec7c7;
-  }
-
- 
-  .tagline-container {
-    position: relative;
-    background-color: #302f2f;
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
   .tagline {
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 20px;
-    text-align: center;
+    font-size: 15px;
   }
-  
-  .tagline:hover{
-    color: rgb(213, 218, 218);
-  }
-
-  
-  .button {
-    position: absolute;
-    padding: 10px 20px;
-    width: 60px;
-    margin-left: 40%;
-    background-color: rgb(244, 18, 18);
-    color: #fff;
-    text-decoration:double;
-    border-radius: 8px;
-    font-size: 16px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .button:hover {
-    background-color: #9b0c0c;
-    transform: scale(1.1);
-  }
+}

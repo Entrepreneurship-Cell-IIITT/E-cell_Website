@@ -10,31 +10,31 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 function SocialMedia() {
 
-    const white = {
-        color:'grey'
-    }
+  const white = {
+    color: 'grey'
+  }
 
   return (
     <div className='social-media'>
-        <div className='MuiIconButton-root' >
+      <div className='MuiIconButton-root' >
         <IconButton component="a" href="YOUR_TWITTER_LINK" target="_blank">
-            <MailOutlineIcon style={white}/>
-         </IconButton>
+          <MailOutlineIcon style={white} />
+        </IconButton>
 
         <IconButton component="a" href="YOUR_GITHUB_LINK" target="_blank">
-            <InstagramTcon style={white} />
+          <InstagramTcon style={white} />
         </IconButton>
 
         <IconButton component="a" href="YOUR_TWITTER_LINK" target="_blank">
-            <TwitterIcon style={white}/>
-         </IconButton>
+          <TwitterIcon style={white} />
+        </IconButton>
 
         <IconButton component="a" href="YOUR_LINKEDIN_LINK" target="_blank">
-            <LinkedInIcon style={white}/>
+          <LinkedInIcon style={white} />
         </IconButton>
 
         <IconButton component="a" href="YOUR_FACEBOOK_LINK" target="_blank">
-            <FacebookIcon style={white}/>
+          <FacebookIcon style={white} />
         </IconButton>
       </div>
     </div>

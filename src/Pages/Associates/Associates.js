@@ -4,7 +4,7 @@ import './Associates.css'
 function Associates() {
   return (
     <div>
-      
+
     </div>
   )
 }
