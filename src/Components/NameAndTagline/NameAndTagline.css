@@ -93,7 +93,13 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 810px) {
+@media (max-width: 970px) {
+  .name {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 870px) {
   .name {
     display: flex;
     flex-direction: column;
@@ -118,7 +124,6 @@
     font-size: 35px;
   }
 }
-
 
 @media (max-width: 380px) {
   .name {

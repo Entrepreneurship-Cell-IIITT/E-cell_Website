@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import './NameAndTagline.css'
 
 function NameAndTagline() {
-  const tagline = "Catalyzing Reformers";
+  const tagline = "Caatalyzing Reformers";
   const [animatedText, setAnimatedText] = useState("");
   console.log(animatedText);
 
-  let i = 0;
   useEffect(() => {
+    let i = 0;
     const typingInterval = setInterval(() => {
       if (i < tagline.length) {
         setAnimatedText((prevText) => prevText + tagline.charAt(i));

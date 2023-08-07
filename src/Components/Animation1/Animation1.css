@@ -1,14 +1,7 @@
-body {
-  display: flex;
-  align-items: center;
-  position: relative;
-  background: linear-gradient(to bottom right, #070630 0%, #060454 100%);
-  min-height: 100vh;
-}
-
 .animation-container {
   display: block;
   position: relative;
+  bottom: 150px;
   width: 800px;
   max-width: 100%;
   margin: 0 auto;

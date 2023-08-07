@@ -1,7 +1,5 @@
 .social-media {
-  display: flex;
-  float: left;
-  left: 0;
+  margin-right: 97%;
 }
 
 .MuiIconButton-root {
@@ -12,4 +10,23 @@
 .MuiIconButton-root :hover {
   transform: scale(1.1);
   color: #ff0000;
+}
+
+@media (max-width: 930px) {
+  .MuiIconButton-root {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .social-media {
+    top: 88%;
+    margin-right: 0%;
+  }
+}
+
+@media (max-width: 850px){
+  .social-media {
+    top: 85%;
+    margin-right: 0%;
+  }
 }

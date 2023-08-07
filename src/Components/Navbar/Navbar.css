@@ -71,11 +71,6 @@
   border-radius: 10px;
 }
 
-.social-media {
-  margin-right: 1rem;
-  text-align: center;
-}
-
 .social-media ul {
   display: flex;
   justify-content: center;
